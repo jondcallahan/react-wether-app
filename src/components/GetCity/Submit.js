@@ -6,7 +6,7 @@ const GetCitySubmit = (props) => {
       type="button"
       className="btn btn-success"
       onClick={props.onSubmit}
-      style={{margin: 10}}
+      style={{margin: 10, width: '65%'}}
       disabled={props.disabled}
     >
     Get Weather!
