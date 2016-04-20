@@ -16,10 +16,13 @@ export default class Home extends React.Component {
             height: '100%',
             top: 0,
             left: 0,
-            zIndex: -1000,
+            zIndex: -100,
             display: 'flex',
+            display: '-webkit-flex',
             alignItems: 'center',
+            WebkitAlignItems: 'center',
             justifyContent: 'center',
+            WebkitJustifyContent: 'center',
             flexDirection: 'column'
       }}>
       <h1 style={{

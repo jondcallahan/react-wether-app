@@ -13,8 +13,11 @@ export default class Nav extends React.Component {
         style={{
           backgroundColor: '#DDD',
           display: 'flex',
+          display: '-webkit-flex',
           justifyContent: 'space-between',
           alignContent: 'center',
+          WebkitJustifyContent: 'space-between',
+          WebkitAlignContent: 'center',
           border: 'none',
           borderRadius: 0,
         }}>

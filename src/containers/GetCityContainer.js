@@ -36,8 +36,12 @@ export default class GetCity extends React.Component {
         maxWidth: 300,
         alignItems: 'center',
         alignSelf: 'center',
+        WebkitAlignItems: 'center',
+        WebkitAlignSelf: 'center',
         justifyContent: 'center',
-        flexDirection: this.props.direction
+        WebkitJustifyContent: 'center',
+        flexDirection: this.props.direction,
+        WebkitFlexDirection: this.props.direction,
       }}
       >
         <GetCityInput city={this.state.city} onChange={this.onCityInputChange} onSubmit={this.handleSubmit} />
